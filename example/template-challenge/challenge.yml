@@ -1,0 +1,17 @@
+name: Example challenge
+author: Nombre del autor
+category: cryptography
+description: |
+  Describe aquí el reto, el contexto y qué debe entregar la persona participante.
+value: 100
+type: standard
+flags:
+  - type: static
+    content: flag{example_flag}
+    data: case_insensitive
+files:
+  - dist/README.txt
+solution: writeup/WRITEUP.md
+requirements: null
+state: hidden
+version: "0.1"
